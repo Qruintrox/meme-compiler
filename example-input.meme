@@ -1,0 +1,8 @@
+meme function1: number, multiplicationFactor {
+    yeet number * multiplicationFactor
+}
+
+scream: function1<5, 3>
+
+~ logs 15 to the console
+~ I miss syntax highlighting

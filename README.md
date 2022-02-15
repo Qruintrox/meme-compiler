@@ -1,3 +1,3 @@
 # Datapack-compiler
 
-Compile Mscript to a minecraft datapack, very cool, very nice
+Compile our own meme language to another, currently debated over language
