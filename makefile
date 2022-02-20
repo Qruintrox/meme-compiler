@@ -5,12 +5,12 @@ FLAGS 		:=
 
 SRCDIR 		:= src
 BUILDDIR 	:= build
-OUPUTFILE 	:= compiler
+OUPUTFILE 	:= main
 
-build: compiler.o
+build: main.o
 	$(COMPILER) $(BUILDDIR)/*.o -o $(BUILDDIR)/$(OUPUTFILE) $(FLAGS)
 
-compiler.o:
+main.o:
 	$(COMPILER) $(SRCDIR)/*.cpp -c $(FLAGS)
 	mv *.o $(BUILDDIR)
 
